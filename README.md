@@ -4,7 +4,7 @@ A very simple collection of elf64 nasm utilities.
 
 # Assemble
 ```bash
-$ nasm -f elf64 main.asm
+$ nasm -f elf64 -o main.o  main.asm
 ```
 
 # Link
