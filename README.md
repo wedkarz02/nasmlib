@@ -12,3 +12,5 @@ $ nasm -f elf64 main.asm
 $ ld -o main main.o
 ```
 
+# Usefull links
+ - [syscalls](http://bogdro.evai.pl/linux/syscall64_1.html)
