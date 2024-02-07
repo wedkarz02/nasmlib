@@ -9,7 +9,7 @@ _start:
     ; change str to uppercase
     mov rsi, str
     mov al, [rsi]  ; load the lowercase character
-    sub al, 32     ; subtract 32 to convert to ASCII uppercase value
+    xor al, 32     ; toggle bit 0x20 to switch case
     mov [rsi], al  ; store the uppercase character back in memory
 
     mov rax, 1
